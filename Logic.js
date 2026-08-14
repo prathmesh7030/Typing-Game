@@ -52,3 +52,6 @@ difficultySelect.value =
   localStorage.getItem('difficulty') !== null
     ? localStorage.getItem('difficulty')
     : 'medium';
+
+ // Focus on text on start
+text.focus();
