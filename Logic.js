@@ -55,3 +55,6 @@ difficultySelect.value =
 
  // Focus on text on start
 text.focus();
+
+// Start counting down
+const timeInterval = setInterval(updateTime, 1000);
