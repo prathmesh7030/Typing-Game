@@ -64,3 +64,8 @@ function getRandomWord() {
   return words[Math.floor(Math.random() * words.length)];
 }
 
+// Add word to DOM
+function addWordToDOM() {
+  randomWord = getRandomWord();
+  word.innerHTML = randomWord;
+}
