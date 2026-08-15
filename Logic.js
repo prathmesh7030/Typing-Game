@@ -125,3 +125,6 @@ text.addEventListener('input', e => {
     updateTime();
   }
 });
+
+// Settings btn click
+settingsBtn.addEventListener('click', () => settings.classList.toggle('hide'));
