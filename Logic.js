@@ -69,3 +69,9 @@ function addWordToDOM() {
   randomWord = getRandomWord();
   word.innerHTML = randomWord;
 }
+
+// Update score
+function updateScore() {
+  score++;
+  scoreEl.innerHTML = score;
+}
